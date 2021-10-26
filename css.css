@@ -1,0 +1,56 @@
+
+body{
+   /* padding: 0px !important; */
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contenedor {
+   
+    flex-direction: column;
+    height:100vh;
+}
+.centrado-url{
+    text-align: center;
+    font-size: 40px;
+}
+.tamano{
+    width: 200px;
+    height: 70px;
+}
+.table{
+    font-size: 40px;
+}
+.mdialTamanio {
+    width: 80% !important;
+}
+.centrado{
+    text-align: center;
+    font-size: 50px;
+}
+.firstArea{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.thirdArea{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: space-around;
+}
+.thirdArea .espacio{
+    margin-right: 100px;
+}
+.bottom{
+    position: absolute;
+    bottom: 20px;
+}
+.izquierda{
+    margin-left: 30px;
+}
+.derecha{
+    margin-left: 530px;
+}
